@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/emberjs/ember-rails.git
-  revision: b956d549dffdd3ec71bf4db57b36612c16fd61af
+  revision: 57bbe3202725e55a8e4eaccba83d663b26bcf024
   specs:
     ember-rails (0.10.1)
       active_model_serializers
@@ -51,7 +51,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
-    dynamic_form (1.1.4)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -129,7 +128,6 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   coffee-rails (~> 3.2.1)
-  dynamic_form
   ember-rails!
   jquery-rails
   rails (= 3.2.12)
