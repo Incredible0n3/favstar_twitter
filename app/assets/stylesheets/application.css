@@ -1,0 +1,82 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+}
+h2 {
+  font-size: 80px;
+  line-height: 140px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 36px;
+  font-family: "league-gothic-1",Impact,sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(http://a0.twimg.com/images/themes/theme1/bg.png);
+  background-position: left 40px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #C0DEED;
+  min-height: 900px;
+  text-align: center;
+}
+
+label {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+#page-label {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+#status {
+  font-size: 26px;
+  line-height: 30px;
+  display: block;
+  font-weight: normal;
+  clear: both;
+  padding: 3px 0;
+  color: #333;
+}
+
+#tweet_id {
+  width: 610px;
+  padding: 20px;
+  margin: 0 auto 5px auto;
+  text-align: center;
+  font-size: 35px;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,7 @@
+<%= form_for(@tweet) do |f| %>
+    <p>
+      <%= f.label :id, "Enter Tweet id:" %><br />
+      <%= f.text_field :id %>
+    </p>
+    <%= f.submit "Find Tweet" %>
+<% end %>
