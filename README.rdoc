@@ -4,7 +4,7 @@ This is a basic application that grabs a Tweet by the Tweet id and stores it loc
 otherwise the app attempts to fetch the Tweet from Twitter. If it fails to find a Tweet then it displays a error message and
 allows you to find a different Tweet. With a little CSS markup to make it not so plain jane.
 
-~ If you decide to pull this repo then you need to make changes to four lines of code in the twitter.yaml file located in the
-config directory (config/twitter.yaml). You will need to provide your Twitter API credentials to be able to fetch Tweets.
+~ If you decide to pull this repo then you need to make changes to four lines of code in the twitter.yml file located in the
+config directory (config/twitter.yml). You will need to provide your Twitter API credentials to be able to fetch Tweets.
 
 Thank you for looking and enjoy.
