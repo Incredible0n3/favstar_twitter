@@ -1,7 +1,19 @@
 <%= form_for(@tweet) do |f| %>
+  <% if @tweet.errors.any? %>
+    <div id="error_explain">
+      <h3><%= pluralize(@tweet.errors.count, "error") %> prohibited the Tweet requested from being fetched:</h3>
+
+      <ul>
+      <% @tweet.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
     <p>
       <%= f.label :id, "Enter Tweet id:" %><br />
-      <%= f.text_field :id %>
+      <%= f.text_field :tweet_id %>
     </p>
     <%= f.submit "Find Tweet" %>
 <% end %>

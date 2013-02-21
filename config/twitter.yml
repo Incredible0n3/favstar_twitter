@@ -1,5 +1,5 @@
 development:
-  consumer_key: ENTER_CONSUMER_KEY
-  consumer_secret: ENTER_CONSUMER_SECRET
-  oauth_token: ENTER_OAUTH_TOKEN
-  oauth_token_secret: ENTER_OAUTH_SECRET
+  consumer_key: ADD_CONSUMER_KEY
+  consumer_secret: ADD_CONSUMER_SECRET
+  oauth_token: ADD_OAUTH_TOKEN
+  oauth_token_secret: ADD_OAUTH_TOKEN_SECRET

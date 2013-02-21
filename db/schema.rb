@@ -14,6 +14,7 @@
 ActiveRecord::Schema.define(:version => 20130219055417) do
 
   create_table "tweets", :force => true do |t|
+    t.integer  "tweet_id"
     t.string   "status"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
