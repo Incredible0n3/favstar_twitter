@@ -1,3 +1,0 @@
-FavstarTwitter.Router.map(function() {
-
-});
